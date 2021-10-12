@@ -1,1 +1,19 @@
-<p>hello</p>
+<!DOCTYPE html>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+	<link rel="shortcut icon" href="{{ url_for('static', filename='data/icon.png') }}">
+	<title>北京健康宝</title>
+	<link href="{{ url_for('static', filename='theme/style.css') }}" type="text/css" rel="stylesheet">
+	<link href="{{ url_for('static', filename='theme/table.css') }}" type="text/css" rel="stylesheet">
+	<!-- jquery -->
+	<script src="/static/js/jquery-3.6.0.js"></script>
+</head>
+<html>
+<body>
+	<img src="index.jpg" border="0" usemap="#planetmap"/>
+	<map name="planetmap" id="planetmap">
+	  <area shape="rect" coords="0,0,863,738" href ="healthy.html" />
+	  <area shape="rect" coords="0,739,863,1920" href ="scan.html" />
+	</map>
+</body>
